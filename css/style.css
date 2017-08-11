@@ -1,0 +1,96 @@
+@font-face {
+	font-family: "PDFinRegular";
+	src: url(../fonts/PFDinTextCompPro-Regular.ttf);
+}
+@font-face {
+	font-family: "PDFinMedium";
+	src: url(../fonts/PFDinTextCompPro-Medium.ttf);
+}
+
+/*HEADER*/
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.top-line-menu {
+	background: #111;
+	height: 30px;
+	line-height: 30px;
+}
+
+.top-line-menu a {
+	color: #fff;
+	font-size: 12px;
+	padding: 10px 0;
+	font-family: Arial Regular;
+}
+
+.top-line-menu li:last-child a:hover {
+	color: #24c3e0;
+}
+
+.logo {
+	font-size: 45px;
+}
+
+.menu-decor a {
+	font-family: "PDFinmedium";
+	font-weight: 400;
+	color: #111;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.menu-decor i {
+	color: #24c3e0;
+}
+
+.search input {
+	width: 50%;
+	padding: 5px 5px 5px 35px;
+	transition: ease-in-out, width .35s ease-in-out;
+}
+
+.search i {
+	position: absolute;
+	left: 25px;
+	top: 10px;	
+}
+
+.search input:focus {
+	width: 100%;
+}
+
+.submenu ul {
+	display: inline-block;
+	width: 20%;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+	min-width: 600px;
+	min-height: 140px;
+	padding-top: 15px;
+	background: #c0c7ca;
+	z-index: 10;
+}
+
+.hovers:hover .submenu{
+	display: block;
+}
+
+/*LEFT_MENU*/
+
+input[type="checkbox"] {
+	color: #24c3e0;
+}
